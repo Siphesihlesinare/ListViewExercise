@@ -12,10 +12,8 @@ namespace FlagFacts
             DependencyService.Register<FlagDetailsViewModel>();
 
             InitializeComponent();
-
-            MainPage = new NavigationPage(new FlagDetailsPage());
+            MainPage = new NavigationPage(new AllFlagsPage());
         }
-
         protected override void OnStart()
         {
             // Handle when your app starts
